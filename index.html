@@ -8,27 +8,22 @@
     <title>Trivia Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-<body>
-    <div id="title-container">
-        <p id="title-section"></p>
-    </div>
-    <div id="game-container">
-        <p id="time-remaining"></p>
-        <p id="question-shown"></p>
-        <ul id="answers-shown"></ul>
-    </div>
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script type="text/javascript">
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
 
-        document.getElementById("title-container").innerText = "Totally Trivial Trivia";
-        document.getElementById("time-remaining").innerText = ;
-        document.getElementById("question-shown").innerText = ;
-        document.getElementById("answers-shown").innerText = ;
 
-    </script>
+<body>
+    <h1>Random Trivia Game</h1>
+
+    <div class="game-section">
+        <div id="time-remaining"></div>
+        <div id="question-shown"></div>
+        <div id="answers-shown"></div>
+        <button id="start">Start Game</button>
+        <button id="restart">Play Again!</button>
+    </div>
 </body>
 
 </html>
